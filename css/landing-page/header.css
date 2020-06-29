@@ -1,0 +1,156 @@
+header{
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header a{
+    color:#4C44C1;
+    text-decoration: none;
+}
+header .logo{
+    display: inline-block;
+    float: left;
+    margin-right: 30px
+}
+header .logo img{
+    width: 80px;
+}
+header .container-fluid .menu{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 13px; 
+}
+header .container-fluid .menu a {
+    text-transform: uppercase; 
+}
+header .header-buttons{
+    display: block;
+    float: right;
+}
+header .header-buttons .orange-btn {
+    background: #FEA83B;
+    padding: 7px 7px;
+    color: white;
+    display: block;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+header .header-buttons .orange-btn {
+    background: #FEA83B;
+    padding: 7px 7px;
+    color: white;
+    display: block;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+header .icon{
+    display: none;
+}
+
+header .header-buttons .blue-btn {
+    background: #5F66F2;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    left: -23px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+header .header-buttons .blue-btn .fas{
+    margin-left: 15px;
+}
+header .header-buttons .orange-btn{
+    background: #FEA83B;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+header label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none !important;
+}
+header #toggle {
+    display: none;
+}
+
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+    
+}
+
+/* Tablet Devices */
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    header .container-fluid .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    header .container-fluid .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    header #toggle:checked + .menu {
+        display: block;
+    }
+    header .header-buttons .blue-btn {
+        padding: 7px 7px;
+        clear: both;
+        color: white;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 35px;
+    }
+    header .header-buttons .orange-btn {
+        padding: 7px 7px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        position: relative;
+        top: 50px;
+    }
+}
